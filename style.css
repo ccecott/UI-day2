@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: green;
+}
+
+.checkout-content {
+    display: flex;
+}
+.checkout {
+    display: flex;
+    flex-direction: column;
+}
+.credit {
+    border: 2px solid black;
+    flex: 1;
+}
+.shipping {
+    border: 2px solid black;
+    flex: 1;
+}
+.cart {
+    border: 2px solid black;
+    flex: 1;
+}
