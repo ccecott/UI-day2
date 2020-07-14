@@ -6,6 +6,7 @@ header {
     background-color: green;
 }
 
+
 .checkout-content {
     display: flex;
 }
@@ -13,11 +14,13 @@ header {
     display: flex;
     flex-direction: column;
 }
+/* This section is only the credit form */
 .credit {
     /* height: 50vh; */
     border: 2px solid black;
     flex: 1;
     width: 50vw;
+    margin: 2px;
 }
 .cc {
     
@@ -84,3 +87,39 @@ input {
     border: 2px solid black;
     flex: 1;
 }
+
+/* This section is for the shipping */
+.shipping {
+   margin: 2px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.shipping-form {
+
+    display: flex;
+    flex-direction: row;
+    
+
+}
+.ship {
+    display: flex;
+    flex-direction: column;
+    padding: 40px 10px 10px 10px;
+    margin-right: 40px;
+}
+.info {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    margin-left: 20px;
+}
+
+/* this is for the cart */
+.cart {
+    display: flex;
+    justify-content: center;
+    margin: 2px;
+}
+
+
