@@ -14,8 +14,67 @@ header {
     flex-direction: column;
 }
 .credit {
+    /* height: 50vh; */
     border: 2px solid black;
     flex: 1;
+    width: 50vw;
+}
+.cc {
+    
+    /* display: flex;
+    flex-wrap: wrap; */
+    padding: 10px;
+}
+.one {
+    display: flex;
+    justify-content: space-evenly;
+}
+.two {
+display: flex;
+justify-content: space-evenly;
+}
+.fname {
+    display: flex;
+    flex-direction: column;
+}
+.lname {
+    display: flex;
+    flex-direction: column;
+}
+.email {
+    display: flex;
+    flex-direction: column;
+}
+.phone {
+    display: flex;
+    flex-direction: column;
+}
+.three {
+display: flex;
+flex-direction: column;
+padding-left: 135px;
+padding-right: 135px;
+
+}
+.four {
+display: flex;
+justify-content: space-evenly;
+}
+.state {
+display: flex;
+flex-direction: column;
+}
+.zip {
+display: flex;
+flex-direction: column;
+}
+label {
+    /* margin: 10px; */
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+input {
+    /* margin: 10px; */
 }
 .shipping {
     border: 2px solid black;
