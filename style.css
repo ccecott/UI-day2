@@ -1,26 +1,50 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: 'Fjalla One', sans-serif;
 }
 header {
-    background-color: green;
+    height: 100px;
+    background: rgb(78,78,78);
+    background: linear-gradient(180deg, rgba(78,78,78,1) 3%, rgba(77,77,77,1) 50%, rgba(54,50,50,1) 100%);
+    border-bottom: 2px solid red;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.monkey {
+    padding-left: 80px;
+    font-family: 'Fjalla One', sans-serif;
+    color: whitesmoke;
+    font-size: 32px;
 }
 
 
 .checkout-content {
     display: flex;
+    padding: 80px;
+
 }
 .checkout {
     display: flex;
     flex-direction: column;
+    
+    
 }
 /* This section is only the credit form */
 .credit {
     /* height: 50vh; */
-    border: 2px solid black;
+    border: 1px solid black;
     flex: 1;
     width: 50vw;
     margin: 2px;
+    padding: 20px;
+    box-shadow: 0 0 30px #333;
+}
+.checkout-title {
+    text-align: center;
+    
 }
 .cc {
     
@@ -55,8 +79,8 @@ justify-content: space-evenly;
 .three {
 display: flex;
 flex-direction: column;
-padding-left: 135px;
-padding-right: 135px;
+padding-left: 140px;
+padding-right: 140px;
 
 }
 .four {
@@ -76,17 +100,6 @@ label {
     padding-top: 10px;
     padding-bottom: 5px;
 }
-input {
-    /* margin: 10px; */
-}
-.shipping {
-    border: 2px solid black;
-    flex: 1;
-}
-.cart {
-    border: 2px solid black;
-    flex: 1;
-}
 
 /* This section is for the shipping */
 .shipping {
@@ -94,6 +107,10 @@ input {
     display: flex;
     flex-direction: column;
     align-items: center;
+    border: 1px solid black;
+    flex: 1;
+    padding: 20px;
+    box-shadow: 0 0 30px #333;
 }
 .shipping-form {
 
@@ -118,8 +135,71 @@ input {
 /* this is for the cart */
 .cart {
     display: flex;
-    justify-content: center;
-    margin: 2px;
+    flex-direction: column;
+    margin: 2px;  
+    border: 1px solid black;
+    flex: 1;    
+    padding: 20px;
+    box-shadow: 0 0 30px #333;
+}
+.cart-title {
+    text-align: center;
+}
+.item {
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    margin-top: 5px;
+    padding: 20px 30px;
+    height: 120px;
+    display: flex;
+    align-items: center;
+  }
+   .item-quantity {
+       width: fit-content;
+   }
+ 
+.cart-stuff {
+    padding: 10px;
+}
+
+  .delete-btn{
+    display: inline-block;
+    Cursor: pointer;
+    width: 18px;
+    height: 17px;
+  }
+.total-price {
+    display: inline;
+}
+
+img {
+    width: 70px;
+    height: 70px;
+}
+ 
+.payment {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.btn {
+    margin-top: 40px;
+    background-color: rgb(243, 243, 6);
+    box-shadow: 0px 1px 0px 0px #fff6af;
+	background:linear-gradient(to bottom, #ffec64 5%, #ffab23 100%);
+	background-color:#ffec64;
+	border-radius:6px;
+	border:1px solid #ffaa22;
+	display:inline-block;
+	cursor:pointer;
+	color:#333333;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #ffee66;
 }
 
 

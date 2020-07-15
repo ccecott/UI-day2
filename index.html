@@ -6,15 +6,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Checkout</title>
     <link rel="stylesheet" href="./style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap" rel="stylesheet">
 </head>
 
 <body>
     <header>
-        <h1>GoalieMonkey</h1>
+        <h1 class="monkey">Goalie</h1>
+        <h1 class="monkey">Monkey</h1>
     </header>
     <div class="checkout-content">
         <div class="checkout">
             <div class="credit">
+                <h1 class="checkout-title">Shipping and Billing Information</h1>
                 <form class="cc">
                     <div class="one">
                         <div class="fname">
@@ -85,7 +88,64 @@
             </div>
         </div>
         <div class="cart">
-            <h1 class="cart-h1">Your Cart</h1>
+            <!-- <h1 class="cart-h1">Your Cart</h1> -->
+            <div class="cart-stuff">
+                <h1 class="cart-title">Cart</h1>
+                <!-- item one -->
+                <div class="item">
+
+                    <div class="image">
+                        <img src="./assets/ultrasonic-skate.webp" alt="" />
+                    </div>
+                    <div class="description">
+                        <span>Bauer Ultrasonic Skate</span>
+                        <span>Itermediate</span>
+                        <span>Size: 4.5</span>
+                    </div>
+                    <div class="quantity">
+
+                        <input class="item-quatity" type="text" name="name" value="1">
+
+                        <div class="total-price">$699.99</div>
+                    </div>
+
+
+                </div>
+                <div class="item">
+
+                    <div class="image">
+                        <img src="./assets/ultrasonic-set.jpg" alt="" />
+                    </div>
+                    <div class="description">
+                        <span>Bauer Ultrasonic Set</span>
+                        <span>Intermediate</span>
+                        <span>Size: Medium</span>
+                    </div>
+                    <div class="quantity">
+
+                        <input class="item-quatity" type="text" name="name" value="1">
+
+                        <div class="total-price">$1,160.97</div>
+                    </div>
+
+
+                </div>
+
+
+            </div>
+            <div class="payment">
+                <div class="money">
+                    <span>Subtotal:</span><br>
+                    <span>Tax:</span><br>
+                    <span>Grand Total:</span>
+                </div>
+                <div class="cash">
+                    <span>$1,860.96</span><br>
+                    <span>$169.24</span><br>
+                    <span>$2,030.20</span>
+                </div>
+            </div>
+            <button class="btn">Place Order</button>
         </div>
     </div>
 </body>
